@@ -4,7 +4,7 @@
 class InputHandler
 {
 public:
-	void handleInput();
+	void handleInput(sf::Event t_event);
 private:
 	Command* backspace;
 	Command* tab;
